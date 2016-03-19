@@ -1,0 +1,969 @@
+<devicedata><certified level="1" date="2/16/2011">Certified</certified><c4id>7063</c4id><manufacturer>Sharp</manufacturer><model>LC-60LE925UN [Network][DriverWorks]</model><search_type>c4:av_gen</search_type><creator>Control4</creator><name>Sharp LC-60LE925UN</name><small>devices_sm\tv.gif</small><large>devices_lg\tv.gif</large><top></top><bottom></bottom><front></front><back></back><left></left><right></right><control>lua_gen</control><driver>DriverWorks</driver><copyright>Copyright 2004-2007 Control4 Corporation.  All rights reserved.</copyright><created>9/15/2010 2:04 PM</created><modified>5/21/2012 9:23 AM</modified><OnlineCategory>tv</OnlineCategory><proxies qty="1"><proxy proxybindingid="5001" name="TV">tv</proxy></proxies><capabilities><surround_modes type="xml"></surround_modes><has_discrete_volume_control>True</has_discrete_volume_control><has_up_down_volume_control>True</has_up_down_volume_control><has_discrete_input_select>True</has_discrete_input_select><has_toad_input_select>True</has_toad_input_select><has_audio>True</has_audio><has_discrete_channel_select>True</has_discrete_channel_select><has_toggle_mute_control>True</has_toggle_mute_control><has_channel_up_down>True</has_channel_up_down><video_provider_count>0</video_provider_count><video_consumer_count>8</video_consumer_count><audio_provider_count>1</audio_provider_count><audio_consumer_count>4</audio_consumer_count><has_discrete_mute_control>True</has_discrete_mute_control><has_feedback>True</has_feedback></capabilities><events></events><connections><connection><id>5001</id><facing>6</facing><connectionname>TV</connectionname><type>2</type><consumer>False</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>False</linelevel><classes><class><classname>TV</classname></class></classes></connection><connection><id>6001</id><facing>6</facing><connectionname>Ethernet</connectionname><type>4</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>TCP</classname><ports><port><number>10002</number><auto_connect>True</auto_connect><monitor_connection>True</monitor_connection><keep_connection>True</keep_connection></port></ports></class></classes></connection><connection proxybindingid="5001"><id>4000</id><facing>6</facing><connectionname>Output</connectionname><type>6</type><consumer>False</consumer><audiosource>True</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>DIGITAL_OPTICAL</classname></class><class><classname>STEREO</classname></class></classes></connection><connection proxybindingid="5001"><id>7000</id><facing>6</facing><connectionname>Room Selection - Output</connectionname><type>7</type><consumer>False</consumer><audiosource>True</audiosource><videosource>True</videosource><linelevel>True</linelevel><classes><class><classname>AUDIO_SELECTION</classname></class><class><classname>AUDIO_VOLUME</classname></class><class><classname>VIDEO_SELECTION</classname></class></classes></connection><connection proxybindingid="5001"><id>1001</id><facing>6</facing><connectionname>CABLE/TV</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>RF_CABLE</classname></class><class><classname>RF_UHF_VHF</classname></class></classes></connection><connection proxybindingid="5001"><id>3002</id><facing>6</facing><connectionname>COMPONENT</connectionname><type>6</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>STEREO</classname></class></classes></connection><connection proxybindingid="5001"><id>1002</id><facing>6</facing><connectionname>COMPONENT</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>COMPONENT</classname></class></classes></connection><connection proxybindingid="5001"><id>3003</id><facing>6</facing><connectionname>HDMI 1</connectionname><type>6</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>STEREO</classname></class></classes></connection><connection proxybindingid="5001"><id>1003</id><facing>6</facing><connectionname>HDMI 1</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>HDMI</classname></class></classes></connection><connection proxybindingid="5001"><id>1004</id><facing>6</facing><connectionname>HDMI 2</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>HDMI</classname></class></classes></connection><connection proxybindingid="5001"><id>1005</id><facing>6</facing><connectionname>HDMI 3</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>HDMI</classname></class></classes></connection><connection proxybindingid="5001"><id>1006</id><facing>6</facing><connectionname>HDMI 4</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>HDMI</classname></class></classes></connection><connection proxybindingid="5001"><id>3007</id><facing>6</facing><connectionname>PC IN</connectionname><type>6</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>STEREO</classname></class></classes></connection><connection proxybindingid="5001"><id>1007</id><facing>6</facing><connectionname>PC IN</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>VGA</classname></class></classes></connection><connection proxybindingid="5001"><id>3008</id><facing>6</facing><connectionname>VIDEO</connectionname><type>6</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>STEREO</classname></class></classes></connection><connection proxybindingid="5001"><id>1008</id><facing>6</facing><connectionname>VIDEO</connectionname><type>5</type><consumer>True</consumer><audiosource>False</audiosource><videosource>False</videosource><linelevel>True</linelevel><classes><class><classname>COMPOSITE</classname></class></classes></connection></connections><config><documentation>Control4 certified on 2/16/2011 for software released versions: 1.8.2, 2.0.6.
+
+RECEIVER CONFIGURATION:
+Setup:
+Set TV to static IP. 
+1. Using the remote, select the "TV" input.
+2. Use the menu to navigate to Initial Setup&gt;Internet Setup&gt;Network Setup&gt;IP Setup.
+3. Set a Static IP according to your network parameters, see User Manual for details.
+4. Navigate to Initial Setup&gt;Internet Setup&gt;Network Setup&gt;IP Control Setup.
+5. Set IP Control Status to "Enable".
+6. Add IP to driver in Composer&gt;Connections&gt;Network.
+7. If IP Port number is changed from the default of 10002 in the TV configuration, then the new Port Number must be entered in the IP Port field in the Properties field in Composer.
+
+POWER ON COMMAND SETTING:
+IMPORTANT NOTE - By default the TV will reject the Power On command. During installation, the TV must be turned on manually and then, using the Actions Tab, sent the appropriate ENABLE POWER_ON command.
+
+Via the Actions Tab, the TV can be configured to Accept or Reject the Power On Command. 
+-ENABLE POWER_ON_RS232 will configure the TV to Accept the Power On Command when controlling via RS-232.
+-ENABLE POWER_ON_IP will configure the TV to Accept the Power On Command when controlling via IP.
+-DISABLE POWER_ON will configure the TV to Reject the Power On Command.
+
+
+PROPERTIES:
+-Command Delay-Milliseconds. Typically this is the amountof time that the driver will wait to send a Command after a previous Command has been sent. This is Property is not used in this driver since a Command will not be send after a previous Command until a Response is received from te TV.
+
+-Response Wait Timer Delay-Seconds. In the event that no Response is received from the TV after a Command is sent, the driver will process subsequent Commands after the amount of time specified by this Property.
+
+-Volume Ramp Delay-Milliseconds. The amount of time between Volume Up or Volume Down Commands.
+
+-Channel Buffer Timer Value. When entering Digits from the Keypad for Channel Tuning, this is the amount of time after the first Digit is entered that it will take for the SET_CHANNEL command to be sent.
+
+-Power On Delay-Seconds. This is the Delay after a Power On Command is sent before a susequnet Command will be sent. 
+
+-Polling Timer Delay - Seconds. A Polling Timer is implemented to periodically poll the TV for current status of power state, currently selected input, current volume and mute state.
+
+
+DEVICE SPECIFIC COMMANDS:
+The following commands are included in this driver for use by models that support these capabilities. These commands can be accessed via Programming or Custom Buttons:
+
+SLEEP
+CC
+AV_MODE
+VIEW_MODE
+AQUOSNet
+C_3DOFF
+C_2DTO3D
+C_SBS
+C_TAB
+C_3DTO2D
+C_3DTO2D_SBS
+C_3DTO2D_TAB
+C_AUTO
+
+POLLING TIMER:
+A Polling Timer is implemented to periodically poll the TV for current status of power state, currently selected input, currently selected channel, current volume and mute state. The polling interval is dictated by the "Polling Timer Delay" whcih can be set via the driver's "Properties" tab.
+
+TIP: If the Polling Timer is not running when the TV is On, then the Power Delay may need to be increased.
+
+COMMAND QUEUE:
+All commands are stacked in order in the command queue. Once a command is sent to the TV, the next command in the queue will not be sent until the first of either of the following occurs
+1) and acknolwledgement is received from the TV
+2) the amount of time delcared in the "Response Timeout" elapses
+
+The "Command Delay" and "Volume Ramp Delay" dictate how often the command queue is checked. When checked, the next command
+in the queue will be sent to the TV unless it is waiting for a response from a command sent previously.
+
+The "Power On Delay" dictates how long the driver will wait before sending the next command in the queue after the "ON" command is sent.
+
+The "Response Timeout", "Command Delay", "Volume Ramp Delay" and "Power On Delay" may be set via the driver's "Properties" tab.
+
+</documentation><commands><command><name>SLEEP</name><description>SLEEP</description></command><command><name>CC</name><description>CC</description></command><command><name>AV_MODE</name><description>AV MODE TOGGLE</description></command><command><name>VIEW_MODE</name><description>VIEW MODE TOGGLE</description></command><command><name>AQUOSNet</name><description>AQUOSNet</description></command><command><name>C_3DOFF</name><description>3D OFF</description></command><command><name>C_2DTO3D</name><description>2D TO 3D</description></command><command><name>C_SBS</name><description>3D SBS</description></command><command><name>C_TAB</name><description>3D TAB</description></command><command><name>C_3DTO2D</name><description>3D TO 2D (Return to previous mode)</description></command><command><name>C_3DTO2D_SBS</name><description>3D TO 2D (SBS)</description></command><command><name>C_3DTO2D_TAB</name><description>3D TO 2D (TAB)</description></command><command><name>C_AUTO</name><description>3D AUTO</description></command><command><name>APP1</name><description>APP1</description></command><command><name>APP2</name><description>APP2</description></command><command><name>APP3</name><description>APP3</description></command></commands><properties><property><name>IP Port</name><type>RANGED_INTEGER</type><minimum>80</minimum><maximum>99999</maximum><default>10002</default><readonly>false</readonly></property><property><name>Connected To Network</name><type>STRING</type><default>false</default><readonly>true</readonly></property><property><name>Debug Mode</name><type>LIST</type><items><item>Off</item><item>Print</item><item>Log</item><item>Print and Log</item></items><default>Off</default><readonly>false</readonly></property><property><name>Command Delay-Milliseconds</name><type>RANGED_INTEGER</type><minimum>50</minimum><maximum>2500</maximum><default>250</default><readonly>false</readonly></property><property><name>Volume Ramp Delay-Milliseconds</name><type>RANGED_INTEGER</type><minimum>50</minimum><maximum>500</maximum><default>250</default><readonly>false</readonly></property><property><name>Direct Channel Tuning</name><type>LIST</type><items><item>Analog</item><item>Digital Air</item><item>Digital Cable - Two Part</item><item>Digital Cable - One Part</item></items><minimum>0</minimum><maximum>0</maximum><default>Digital Air</default><readonly>false</readonly></property><property><name>Channel Buffer Timer Value</name><type>RANGED_INTEGER</type><minimum>1</minimum><maximum>5</maximum><default>3</default><readonly>false</readonly></property><property><name>Response Wait Timer Delay-Seconds</name><type>RANGED_INTEGER</type><minimum>0</minimum><maximum>25</maximum><default>10</default><readonly>false</readonly></property><property><name>Power On Delay-Seconds</name><type>RANGED_INTEGER</type><minimum>0</minimum><maximum>25</maximum><default>15</default><readonly>false</readonly></property><property><name>Polling Timer Delay-Seconds</name><type>RANGED_INTEGER</type><minimum>1</minimum><maximum>60</maximum><default>5</default><readonly>false</readonly></property></properties><actions><action><name>ENABLE POWER_ON_RS232</name><command>ENABLE POWER_ON_RS232</command></action><action><name>ENABLE POWER_ON_IP</name><command>ENABLE POWER_ON_IP</command></action><action><name>DISABLE POWER_ON</name><command>DISABLE POWER_ON</command></action><action><name>Destroy All Timers</name><command>Destroy Timers</command></action></actions><power_management_method>DiscreteCodes</power_management_method><irsettings></irsettings><power_command_delay>0</power_command_delay><power_delay>12</power_delay><power_command_needed>True</power_command_needed><rfs><rf>rf_cable</rf><rf>rf_uhf_vhf</rf></rfs><serialsection><serialcodes /></serialsection><script><![CDATA[
+
+tSurroundCommands = {
+}
+
+tOutputConnMap = {
+[0] = 'Output',
+}
+
+tInputConnMapByID = {
+[1] = {Name = 'CABLE/TV',BindingID = 5001,},
+[2] = {Name = 'COMPONENT',BindingID = 5001,},
+[3] = {Name = 'HDMI 1',BindingID = 5001,},
+[4] = {Name = 'HDMI 2',BindingID = 5001,},
+[5] = {Name = 'HDMI 3',BindingID = 5001,},
+[6] = {Name = 'HDMI 4',BindingID = 5001,},
+[7] = {Name = 'PC IN',BindingID = 5001,},
+[8] = {Name = 'VIDEO',BindingID = 5001,},
+}
+
+tInputConnMapByName = {
+['CABLE/TV'] = {ID = 1,BindingID = 5001,},
+['COMPONENT'] = {ID = 2,BindingID = 5001,},
+['HDMI 1'] = {ID = 3,BindingID = 5001,},
+['HDMI 2'] = {ID = 4,BindingID = 5001,},
+['HDMI 3'] = {ID = 5,BindingID = 5001,},
+['HDMI 4'] = {ID = 6,BindingID = 5001,},
+['PC IN'] = {ID = 7,BindingID = 5001,},
+['VIDEO'] = {ID = 8,BindingID = 5001,},
+}
+
+g_PowerState = nil
+idConnectToNetworkTimer = 0
+tPendingCommands = {}
+tEmitCommands = {}
+idBusyTimer = 0
+g_debugprint = false
+g_debuglog = false
+hexmap = {
+ ['0'] = 0,
+ ['1'] = 1,
+ ['2'] = 2,
+ ['3'] = 3,
+ ['4'] = 4,
+ ['5'] = 5,
+ ['6'] = 6,
+ ['7'] = 7,
+ ['8'] = 8,
+ ['9'] = 9,
+ ['A'] = 10,
+ ['B'] = 11,
+ ['C'] = 12,
+ ['D'] = 13,
+ ['E'] = 14,
+ ['F'] = 15,
+}
+ChannelCommands = ''
+ChannelRampTimerID = 0
+tVolRampTimerID = {}
+tVolumeCommands = {}
+tVolumeCommandNames = {}
+tCurrentVolume = {}
+tMaxVolume = {}
+CMDS = {
+['DISABLE POWER_ON'] = 'RSPW0000',
+['ENABLE POWER_ON_RS232'] = 'RSPW0001',
+['ENABLE POWER_ON_IP'] = 'RSPW0002',
+['ON'] = 'POWR0001',
+['OFF'] = 'POWR0000',
+['MUTE_ON'] = 'MUTE1   ',
+['MUTE_OFF'] = 'MUTE2   ',
+['MUTE_TOGGLE'] = 'MUTE0   ',
+['TV_VIDEO'] = 'ITGDx   ',
+['INPUT_TOGGLE'] = 'ITGDx   ', 
+['PULSE_CH_UP'] = 'CHUP1   ',
+['PULSE_CH_DOWN'] = 'CHDW1   ',
+['START_CH_UP'] = 'CHUP1   ',
+['START_CH_DOWN'] = 'CHDW1   ',
+['PULSE_ASPECT_RATIO'] = 'WIDE0   ',
+['QUERY_POWER_STATE'] = 'POWR?   ',
+['QUERY_MUTE_STATE'] = 'MUTE?   ',
+['GET_IS_MUTED'] = 'MUTE?   ',
+['QUERY_VOLUME_STATE'] = 'VOLM0?  ',
+['QUERY_INPUT_STATE'] =  'IAVD?   ',
+['NUMBER_0']='RCKY00  ', 	
+['NUMBER_1']='RCKY01  ',	
+['NUMBER_2']='RCKY02  ',	
+['NUMBER_3']='RCKY03  ',	
+['NUMBER_4']='RCKY04  ',	
+['NUMBER_5']='RCKY05  ',	
+['NUMBER_6']='RCKY06  ',	
+['NUMBER_7']='RCKY07  ',	
+['NUMBER_8']='RCKY08  ',	
+['NUMBER_9']='RCKY09  ',
+['STAR']='RCKY10  ',
+['INFO']='RCKY13  ', --Display
+['RECALL']='RCKY30  ',
+['MUTE_TOGGLE']='RCKY31  ',
+['PULSE_VOL_DOWN']='RCKY32  ',
+['PULSE_VOL_UP']='RCKY33  ',
+['MENU']='RCKY38  ',
+--['ENTER']='RCKY40  ',
+['UP']='RCKY41  ',
+['DOWN']='RCKY42  ',
+['LEFT']='RCKY43  ',
+['RIGHT']='RCKY44  ',
+['PREV']='RCKY45  ',
+--['CANCEL']='RCKY46  ',
+['PROGRAM_A']='RCKY50  ',
+['PROGRAM_B']='RCKY51  ',
+['PROGRAM_C']='RCKY52  ',
+['PROGRAM_D']='RCKY53  ',
+['APP1']='RCKY55  ',
+['APP2']='RCKY56  ',
+['APP3']='RCKY57  ',
+['SLEEP']='RCKY24  ',
+['CC']='RCKY27  ',
+['CLOSED_CAPTIONED']='RCKY27  ',
+['AV_MODE']='RCKY28  ',
+['VIEW_MODE']='RCKY29  ',
+['PULSE_ASPECT_RATIO']='RCKY29  ',
+['AQUOSNet']='RCKY37  ',
+['C_3DOFF']='TDCH0   ',
+['C_2DTO3D']='TDCH1   ',
+['C_SBS']='TDCH2   ',
+['C_TAB']='TDCH3   ',
+['C_3DTO2D']='TDCH4   ',
+['C_3DTO2D_SBS']='TDCH5   ',
+['C_3DTO2D_TAB']='TDCH6   ',
+['C_AUTO']='TDCH7   ',
+}
+QUERY = {
+['ON']='POWR?   ',
+['OFF']='POWR?   ',
+['MUTE_ON']='MUTE?   ',
+['MUTE_OFF']='MUTE?   ',
+['PULSE_VOL_UP']='VOLM0?  ',
+['PULSE_VOL_DOWN']='VOLM0?  ',
+['SET_VOLUME_LEVEL']='VOLM0?  ',
+['SET_INPUT']='IAVD?   ',
+}
+tInputCommandMap = {
+['CABLE/TV'] = 'ITVD0   ',
+['COMPONENT'] = 'IAVD1   ',
+['VIDEO'] = 'IAVD2   ',
+['PC IN'] = 'IAVD3   ',
+['HDMI 1'] = 'IAVD4   ',
+['HDMI 2'] = 'IAVD5   ',
+['HDMI 3'] = 'IAVD6   ',
+['HDMI 4'] = 'IAVD7   ',
+}
+tInputResponseMap = {
+[0]='CABLE/TV',
+[1]='COMPONENT',
+[2]='VIDEO',
+[3]='PC IN',
+[4]='HDMI 1',
+[5]='HDMI 2',
+[6]='HDMI 3',
+[7]='HDMI 4',
+}
+mPort = tonumber(Properties['IP Port'])
+mNetConnected = tostring(Properties['Connected To Network'])
+intraCommandDelayValue = tonumber(Properties['Command Delay-Milliseconds'])
+intraVolRampDelayValue = tonumber(Properties['Volume Ramp Delay-Milliseconds'])
+g_DirectChannelTuning = tostring(Properties['Direct Channel Tuning'])
+g_ChannelBufferTimerValue = tonumber(Properties['Channel Buffer Timer Value'])
+ResponseWaitTimerDelayValue = tonumber(Properties['Response Wait Timer Delay-Seconds'])
+powerOnDelayValue = tonumber(Properties['Power On Delay-Seconds'])
+PollingTimerValue = tonumber(Properties['Polling Timer Delay-Seconds'])
+
+
+function OnPropertyChanged(strProperty)
+  if (strProperty == 'Debug Mode') then
+    if (Properties[strProperty] == 'Off') then
+      g_debugprint = false
+      g_debuglog = false
+      g_DebugTimer = C4:KillTimer(g_DebugTimer)
+      g_DebugTimer = 0
+    end
+    if (Properties[strProperty] == 'Print') then
+      g_debugprint = true
+      g_debuglog = false
+      startDebugTimer()
+    end
+    if (Properties[strProperty] == 'Log') then
+      g_debugprint = false
+      g_debuglog = true
+      startDebugTimer()
+    end
+    if (Properties[strProperty] == 'Print and Log') then
+      g_debugprint = true
+      g_debuglog = true
+      startDebugTimer()
+    end
+  elseif (strProperty == 'Response Wait Timer Delay-Seconds') then
+    ResponseWaitTimerDelayValue = tonumber(Properties['Response Wait Timer Delay-Seconds'])
+    
+    PersistData['Response Wait Timer Delay-Seconds']=Properties['Response Wait Timer Delay-Seconds']
+  elseif (strProperty == 'Power On Delay-Seconds') then
+    powerOnDelayValue = tonumber(Properties['Power On Delay-Seconds'])
+    
+    PersistData['Power On Delay-Seconds']=Properties['Power On Delay-Seconds']
+  elseif (strProperty == 'Channel Buffer Timer Value') then
+    g_ChannelBufferTimerValue = tonumber(Properties['Channel Buffer Timer Value'])
+    
+    PersistData['Channel Buffer Timer Value']=Properties['Channel Buffer Timer Value']
+  elseif (strProperty == 'Direct Channel Tuning') then
+    g_DirectChannelTuning = tostring(Properties['Direct Channel Tuning'])
+    PersistData['Direct Channel Tuning']=Properties['Direct Channel Tuning']
+  elseif (strProperty == 'Polling Timer Delay-Seconds') then
+    PollingTimerValue = tonumber(Properties['Polling Timer Delay-Seconds'])
+    PersistData['Polling Timer Delay-Seconds']=Properties['Polling Timer Delay-Seconds']
+  elseif (strProperty == 'IP Port') then
+    mPort = tonumber(Properties['IP Port'])
+    PersistData['IP Port']=Properties['IP Port']
+  end
+end
+
+function OnTimerExpired(idTimer)
+  if (idTimer == idEmitCommandsTimer) then
+    if tEmitCommands[1] ~= nil then
+      if (bOKtoEmit == true) or (bOKtoEmit == nil) then
+        dbg('SendToNetwork:' .. tEmitCommands[1][1])
+        C4:SendToNetwork(6001, tonumber(mPort), tEmitCommands[1][1]) 
+        if (tEmitCommands[1][2]  == true) then
+          idResponseWaitTimer = C4:AddTimer(powerOnDelayValue, 'SECONDS', false)
+          bPowerOnSequence=true
+        else
+          idResponseWaitTimer = C4:AddTimer(ResponseWaitTimerDelayValue, 'SECONDS', false)
+          bPowerOnSequence=false
+        end
+        g_CurrentCommand=tEmitCommands[1][3]
+        table.remove(tEmitCommands, 1)
+        bOKtoEmit = false
+        if (tEmitCommands[1] == nil) then
+          C4:KillTimer(idEmitCommandsTimer)
+          idEmitCommandsTimer = nil
+        end
+      end       
+    end 
+  elseif (idTimer == idResponseWaitTimer) then
+    idResponseWaitTimer = C4:KillTimer(idResponseWaitTimer)
+    if (bPowerOnSequence==true) then 
+      bPowerOnSequence=false 
+      send_polling() 
+    end
+    bOKtoEmit = true
+    dbg('OnTimerExpired: ResponseWaitTimer - OK to Emit set to True')
+  elseif (idTimer == idPollingTimer) then
+    -- Send a status query on the main port...
+    -- If we haven't gotten a response, increment the 'not checked in'... if it hits 3, disconnect all ports...
+    gLastCheckin = gLastCheckin or 0
+    gLastCheckin = gLastCheckin + 1
+    if (gLastCheckin > 2) then
+      if (mNetConnected == true) then 
+        C4:NetDisconnect(6001, mPort) 
+        dbg("Failed to receive poll responses... Disconnecting...")
+        C4:ErrorLog("Sharp TV device is not responding... Disconnecting...")
+      end
+    end
+    -- Send Poll Packet if we're ONLINE...
+    if (mNetConnected == true) then
+      send_polling()
+    end
+  elseif (idTimer == gReconnectTimer) then
+    dbg("Attempting to reconnect to Sharp TV...")
+    C4:ErrorLog("Attempting to reconnect to Sharp TV...")
+    local bTrying = false
+    gReconnectTimer = C4:KillTimer(gReconnectTimer)
+    if (gNetworkStatus == "OFFLINE") then
+      -- Try to reconnect to the Sharp Control port...
+      C4:NetDisconnect(6001, mPort)
+      C4:NetConnect(6001, mPort)
+      bTrying = true
+    end
+    if (bTrying) then
+      gReconnectTimer = C4:AddTimer(5, "SECONDS")
+    end
+  elseif (idTimer == g_ChannelBufferTimer) then
+    CMDS.SET_CHANNEL({CHANNEL=g_ChannelBuffer,},'SET_CHANNEL')
+    g_ChannelBufferTimer = C4:KillTimer(g_ChannelBufferTimer)
+    g_ChannelBufferTimer=nil
+    g_ChannelBuffer=nil
+  elseif (idTimer==g_VolRampTimerID) then
+    local cmd
+    if (g_VolumeRamp == 'UP') then
+      cmd=CMDS.PULSE_VOL_UP .. '\r'
+      g_CurrentCommand='PULSE_VOL_UP'
+    else
+      cmd=CMDS.PULSE_VOL_DOWN .. '\r'
+      g_CurrentCommand='PULSE_VOL_DOWN'
+    end
+    --if (bOKtoEmit == true) or (bOKtoEmit == nil) then
+      C4:SendToSerial(1, cmd) 
+      dbg('C4:SendToSerial: ' .. cmd)
+      --idResponseWaitTimer = C4:AddTimer(ResponseWaitTimerDelayValue, 'SECONDS', false)
+      bPowerOnSequence=false
+      --bOKtoEmit = false
+    --end     
+  elseif (idTimer==ChannelRampTimerID) then
+    emit(ChannelCommands)
+  elseif (idTimer == g_DebugTimer) then
+    dbg('Turning Debug Mode back to Off [default] (timer expired)')
+    C4:UpdateProperty('Debug Mode', 'Off')
+    g_debugprint = false
+    g_debuglog = false
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+  else
+    dbg('DESTROYING STRAY TIMER: ' .. idTimer)
+    C4:KillTimer(idTimer)
+  end
+end
+
+function ReceivedFromNetwork(idBinding, nPort, strData)
+    dbg('Received something from network on binding ' .. idBinding)
+    if (g_debugprint) then
+      hexdump(strData)
+    end
+    processResponse(strData)
+end
+
+function OnConnectionStatusChanged(idBinding, nPort, strStatus)
+  dbg("OnConnectionStatusChanged[" .. idBinding .. " (" .. nPort .. ")]: " .. strStatus)
+  if (idBinding == 6001) then
+    gNetworkStatus=strStatus
+    if (strStatus == "ONLINE") then
+      mNetConnected = true
+      gLastCheckin=0
+      C4:UpdateProperty('Connected To Network','true')
+      C4:ErrorLog("Connected to Sharp TV...")
+      if (idPollingTimer) then C4:KillTimer(idPollingTimer) end
+      idPollingTimer = C4:AddTimer(PollingTimerValue, "SECONDS", true) -- 5 second repeating timer...
+    else
+      mNetConnected = false
+      C4:UpdateProperty('Connected To Network','false')
+      -- Try a re-connect of the device ...
+      if (gReconnectTimer == nil) or (gReconnectTimer == 0) then
+        gReconnectTimer = C4:AddTimer(5, "SECONDS")
+        C4:NetDisconnect(6001, mPort)
+        C4:NetConnect(6001, mPort)
+      end
+    end
+  end
+end
+
+function ReceivedFromProxy(idBinding, strCommand, tParams)
+  dbg('ReceivedFromProxy: ' .. strCommand)
+  if tParams==nil then
+    tParams={}
+  end
+  tParams['BindingID'] = idBinding
+  if (CMDS[strCommand] ~= nil) and (type(CMDS[strCommand])=='function') then
+    CMDS[strCommand] (tParams, strCommand)
+  elseif (CMDS[strCommand] ~= nil) then
+    emit(CMDS[strCommand], strCommand, tParams.OUTPUT)
+  else
+    dbg('ReceivedFromProxy - Command not defined: '.. strCommand)
+  end
+end
+
+function ExecuteCommand(Command, Parameters)
+  dbg('ExecuteCommand: ' .. Command)
+  if (CMDS[Command] ~= nil) and (type(CMDS[Command])=='function') then
+    CMDS[Command] (Parameters, Command)
+  elseif (CMDS[Command] ~= nil) then
+    emit(CMDS[Command], Command)
+  else
+    dbg('ExecuteCommand - Command not defined: '.. Command)
+  end
+end
+
+function emit(strCommand, strCommandName, lngOutputID)
+  local bUsePowerOnDelay = false
+
+  if (strCommandName=='ON') then
+    if (g_PowerState == nil) or (g_PowerState == 'OFF') then
+      bUsePowerOnDelay = true
+      dbg('Emit: Using Power Delay for ON Command')
+      if ((idPollingTimer==nil) or (idPollingTimer==0)) then
+        dbg('Set Polling Timer')
+        idPollingTimer = C4:AddTimer(PollingTimerValue, 'SECONDS', true)
+      end
+    else
+      dbg('Skipping ON command, unit is already ON')
+      return
+    end
+  elseif (strCommandName=='OFF') then
+    tSetInputTrack=nil
+    gSerialBuf = ''
+    if (idPollingTimer) then
+      dbg('Kill Polling Timer')
+      idPollingTimer = C4:KillTimer(idPollingTimer)
+    end
+  else
+    if ((idPollingTimer==nil) or (idPollingTimer==0)) then
+      dbg('Set Polling Timer')
+      idPollingTimer = C4:AddTimer(PollingTimerValue, 'SECONDS', true)
+    end
+  end
+
+  strCommand = strCommand .. '\r'
+  dbg('Emit: ' .. strCommand)
+  table.insert(tEmitCommands, {strCommand, bUsePowerOnDelay,strCommandName})
+  if idEmitCommandsTimer == nil then
+     idEmitCommandsTimer = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+  end
+end
+
+function processResponse(msg)
+  gLastCheckin = 0
+  local NormalResponse='OK\r'
+  local ProblemResponse='ERR\r'
+  if (bPowerOnSequence==true) then
+    dbg('AckInterpreter: bPowerOnSequence - Ignore Response, Power On Delay in Effect')
+    return
+  else
+    bOKtoEmit = true
+    idResponseWaitTimer = C4:KillTimer(idResponseWaitTimer)
+  end
+
+  if (msg==NormalResponse) then
+    dbg('processResponse for ' .. g_CurrentCommand .. ', NormalResponse - OKtoEmit set to True')
+    if (g_VolumeRamp=='UP') or (g_VolumeRamp=='DOWN') then
+      --skip query during volume ramping
+    else
+      if (QUERY[g_CurrentCommand]~=nil) then
+        emit(QUERY[g_CurrentCommand], 'QUERY ' .. g_CurrentCommand)
+      end
+    end
+    return
+  elseif (msg==ProblemResponse) then
+    if (g_CurrentCommand=='QUERY SET_INPUT') or (g_CurrentCommand=='QUERY INPUT') then 
+      --CABLE/TV input returns ERR when queried with 'IAVD' syntax
+      msg=0 
+    else
+      dbg('processResponse for ' .. g_CurrentCommand .. ', ProblemResponse - OKtoEmit set to True')
+      return
+    end
+  end
+
+  local response = g_CurrentCommand
+
+  if (response=='QUERY ON') or (response=='QUERY OFF') or (response=='QUERY POWER') then
+    local power
+    local val = string.sub(msg,1,1)
+    if val == '1' then
+      power='ON'
+    elseif val == '0' then
+      power='OFF'
+    end
+    if (power==nil) then dbg('Unhandled Power Query Response, ' .. msg) return end
+    dbg('processResponse for ' .. g_CurrentCommand .. ', Status: ' .. power)
+    if (g_PowerState~=power) then
+      g_PowerState =  power
+      C4:SendToProxy(5001, power, {})
+      dbg('Sent powerState to proxy: ' .. power)
+    end
+  elseif (string.find(response,'INPUT')~=nil) then
+    -- bVideoOnly is workaround for TV proxy bug that affects Current Input in Composer Programming   
+    -- if connection has audio then it is considered audio, if not then it is considered video
+    local bVideoOnly=false
+    local id = tonumber(string.sub(msg,1,1))
+    local name=tInputResponseMap[id]
+    local input=tInputConnMapByName[name].ID 
+    if (name=='HDMI 2') or (name=='HDMI 3') or (name=='HDMI 4') then bVideoOnly=true end
+    dbg('processResponse for ' .. g_CurrentCommand .. ', Status: ' .. name)
+    --3000 Audio, 1000 Video
+    if (input~=nil) then
+      if (g_CurrentInput~=input) then
+        g_CurrentInput=input
+        if (bVideoOnly==true) then
+           C4:SendToProxy(5001,'INPUT_CHANGED', {INPUT=input + 1000})
+        else
+          C4:SendToProxy(5001,'INPUT_CHANGED', {INPUT=input + 3000})
+        end
+        g_CurrentInputID=input + 3000
+        dbg('Sent INPUT_CHANGED to: ' .. name)
+      end
+    end
+  elseif (string.find(response,'MUTE')~=nil) then
+    local mute
+    local val = string.sub(msg,1,1)
+    if (val == '2') then
+      mute='False'
+   elseif (val == '1') then
+      mute='True'
+    end  
+    if (mute==nil) then dbg('Unhandled Mute Query Response, ' .. msg) return end
+    dbg('processResponse for ' .. g_CurrentCommand .. ', Status: ' .. mute)
+    --Mute notification only supported by TV proxy in 2.0 and forward
+    if (g_Mute~=mute) then
+      g_Mute=mute
+      C4:SendToProxy(5001,'MUTE_CHANGED', {MUTE = g_Mute, OUTPUT = 4000})
+      dbg('Sent muteState to proxy: ' .. g_Mute)
+    end
+  elseif (string.find(response,'VOL')~=nil) then
+    --Volume notification only supported by TV proxy in 2.0 and forward
+    local volume=tonumber(string.sub(msg,1,2))
+    volume=processVolumeLevel(volume, 0, 60, 0, 100)
+    dbg('processResponse for ' .. g_CurrentCommand .. ', Status: ' .. volume)
+    if (CurrentVolume~=volume) then
+      CurrentVolume=volume
+      C4:SendToProxy(5001,'VOLUME_LEVEL_CHANGED', {LEVEL = volume, OUTPUT = 4000})
+      dbg('Sent VOLUME_LEVEL_CHANGED to proxy: ' .. volume ..'%')
+    end
+  end
+end
+
+function OnDriverDestroyed()
+  if (g_DebugTimer) then
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+  end
+  for lngOutputID,VolRampTimerID in pairs(tVolRampTimerID) do
+    if (VolRampTimerID) then
+      VolRampTimerID = C4:KillTimer(VolRampTimerID)
+    end
+  end
+  if (idEmitCommandsTimer) then
+    idEmitCommandsTimer = C4:KillTimer(idEmitCommandsTimer)
+    idEmitCommandsTimer = nil
+  end
+  if (ChannelRampTimerID) then
+    ChannelRampTimerID = C4:KillTimer(ChannelRampTimerID)
+  end
+  if (idConnectToNetworkTimer) then
+    idConnectToNetworkTimer = C4:KillTimer(idConnectToNetworkTimer)
+  end
+  if (idBusyTimer) then
+    idBusyTimer = C4:KillTimer(idBusyTimer)
+  end
+  if (idOperatingStatusQueryTimer) then
+    idOperatingStatusQueryTimer = C4:KillTimer(idOperatingStatusQueryTimer)
+  end
+  if (idStatusQueryTimer) then
+    idStatusQueryTimer = C4:KillTimer(idStatusQueryTimer)
+  end
+  if (idResponseTimeoutTimer) then
+    idResponseTimeoutTimer = C4:KillTimer(idResponseTimeoutTimer)
+  end
+  if (idResponseWaitTimer) then
+    idResponseWaitTimer = C4:KillTimer(idResponseWaitTimer)
+  end
+  if (idPollingTimer) then
+    idPollingTimer = C4:KillTimer(idPollingTimer)
+  end
+  if (gReconnectTimer) then
+    gReconnectTimer = C4:KillTimer(gReconnectTimer)
+  end
+  if (g_VolRampTimerID) then
+    g_VolRampTimerID = C4:KillTimer(g_VolRampTimerID)
+  end
+  if (g_ChannelBufferTimer) then
+    g_ChannelBufferTimer = C4:KillTimer(g_ChannelBufferTimer)
+  end
+end
+
+function GetCommandData(strCommand, tParams)
+  --deprecated
+end
+
+function dbg(strDebugText)
+  if (g_debugprint) then print(strDebugText) end
+  if (g_debuglog) then C4:ErrorLog(strDebugText) end
+end
+
+function startDebugTimer()
+  if (g_DebugTimer) then
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+  end
+  g_DebugTimer = C4:AddTimer(15, 'MINUTES')
+end
+
+function fromHex(hexString) -- converts a string representing a hex number to decimal
+   local stringLen = string.len(hexString)
+   local decValue = 0
+   for k=0,stringLen-1 do
+      lastdigit = string.sub(hexString, stringLen-k)
+      decValue = decValue + (hexmap[lastdigit] * 16^k)
+      hexString=string.sub(hexString,1,stringLen-1)
+   end
+   return decValue
+end
+
+function concat_string(s1, s2)
+  if s1 == nil then
+    return s2
+  else
+    return s1 .. s2
+  end
+end
+
+function changeVolume(lngOutputID, strCommand, strCommandData)
+  lngOutputID=lngOutputID % 1000
+  if (strCommand == 'STOP_VOL_UP') or (strCommand == 'STOP_VOL_DOWN') then
+    intraCommandDelayValue=g_holdIntraCommandDelayValue 
+    if tVolRampTimerID[lngOutputID] ~= nil then
+      C4:KillTimer(tVolRampTimerID[lngOutputID])
+      tVolRampTimerID[lngOutputID] = nil
+      for j,k in pairs(tEmitCommands) do 
+        if string.match(k[1],strCommandData) ~= nil then
+          table.remove(tEmitCommands, j)
+        end
+      end
+    end
+  else
+    if (strCommand == 'START_VOL_UP') or (strCommand == 'START_VOL_DOWN') then
+      g_holdIntraCommandDelayValue=intraCommandDelayValue 
+      intraCommandDelayValue=intraVolRampDelayValue
+      if  idEmitCommandsTimer ~=nil then
+        C4:KillTimer(idEmitCommandsTimer)
+        idEmitCommandsTimer = nil
+      end 
+      if (tVolRampTimerID[lngOutputID] == nil) then
+        if (tVolRampTimerID[lngOutputID]) then
+          tVolRampTimerID[lngOutputID] = C4:KillTimer(tVolRampTimerID[lngOutputID])
+        end
+        tVolRampTimerID[lngOutputID] = C4:AddTimer(intraVolRampDelayValue, 'MILLISECONDS', true)
+        tVolumeCommands[lngOutputID] = strCommandData
+        tVolumeCommandNames[lngOutputID] = strCommand
+        emit(strCommandData)
+      end
+    else
+       emit(strCommandData)
+    end
+  end
+end
+
+function changeChannel(lngOutputID, strCommand, strCommandData)
+   --  Code comments below should be removed when Defect 18784 is fixed (Tuner Proxy continues to send START commands).
+   if (strCommand == 'STOP_CH_UP') or (strCommand == 'STOP_CH_DOWN') then
+   --   C4:KillTimer(ChannelRampTimerID)
+     --Get_Device_State('QUERY_TUNER',{})
+   else
+      if (strCommand == 'START_CH_UP') or (strCommand == 'START_CH_DOWN') then
+         emit(strCommandData)
+   --      if (ChannelRampTimerID) then
+   --        ChannelRampTimerID = C4:KillTimer(ChannelRampTimerID)
+   --      end
+   --      ChannelRampTimerID = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+   --      ChannelCommands = strCommandData
+      else
+         emit(strCommandData)
+         --Get_Device_State('QUERY_TUNER',{})
+      end
+   end
+end
+
+function CMDS.SET_INPUT(tParams,strCommand)
+  local strCmd = ''
+  local BindingID = 0
+  local lngOUTPUT = 0  
+  local lngINPUT
+  dbg('SET_INPUT')
+  dbg('SET_INPUT-tParams: ')
+  if tParams ~= nil then
+    for j,k in pairs(tParams) do
+      dbg('SET_INPUT_ParamID: ' .. j .. ' - SET_INPUT_ParamValue: ' .. k)
+      if (j == 'BindingID') then BindingID = k end
+      if (j == 'OUTPUT') then lngOUTPUT = tonumber(k) % 1000 end
+      if (j == 'INPUT') then lngINPUT = tonumber(k) % 1000  end
+    end
+  end
+  strCmd = tInputCommandMap[tInputConnMapByID[lngINPUT].Name]
+  emit(strCmd, strCommand, tParams.OUTPUT)
+
+  --for RF inputs, send input selection command twice to ensure that TV is on correct input
+--[[
+  if (tInputConnMapByID[lngINPUT].Name=='CABLE') or (tInputConnMapByID[lngINPUT].Name=='ANTENNA') then
+    emit(strCmd, strCommand, tParams.OUTPUT)
+  end
+--]]
+end
+
+function CMDS.SET_CHANNEL(tParams,strCommand)
+  dbg('SET_CHANNEL')
+  dbg('SET_CHANNEL-tParams: ')
+  if tParams ~= nil then
+    for j,k in pairs(tParams) do
+      dbg('SET_CHANNEL_ParamID: ' .. j .. ' - SET_CHANNEL_ParamValue: ' .. k)
+    end
+  end
+
+  local channel, delim, major, minor, strCmd
+  channel = tParams['CHANNEL']
+  if (channel==nil) or (channel=='') then dbg('SET_CHANNEL ERROR: Channel Param Not Valid [nil]') return end
+  delim = string.find(channel, '%D')
+  if (delim~=nil) then
+    major=string.sub(channel, 1, delim-1)
+    minor=string.sub(channel, delim+1, string.len(channel))
+  end
+
+  if (g_DirectChannelTuning=='Analog') then
+    channel = string.rep('0', 3 - string.len(channel)) .. channel
+    strCmd = 'DCCH' .. channel .. ' '
+    emit(strCmd, strCommand)
+  elseif (g_DirectChannelTuning=='Digital Air') then
+    if (major==nil) then major=channel end
+    if (minor==nil) then minor='00' end
+    major = string.rep('0', 2 - string.len(major)) .. major
+    minor = string.rep('0', 2 - string.len(minor)) .. minor
+    if (string.len(major)>2) then dbg('SET_CHANNEL ERROR: Major Channel Param Not Valid') return end
+    if (string.len(minor)>2) then dbg('SET_CHANNEL ERROR: Minor Channel Param Not Valid') return end
+    strCmd = 'DA2P' .. major .. minor
+    emit(strCmd, strCommand)
+  elseif (g_DirectChannelTuning=='Digital Cable - Two Part') then
+    if (major==nil) then major=channel end
+    if (minor==nil) then minor='000' end
+    major = string.rep('0', 3 - string.len(major)) .. major
+    minor = string.rep('0', 3 - string.len(minor)) .. minor
+    if (string.len(major)>3) then dbg('SET_CHANNEL ERROR: Major Channel Param Not Valid') return end
+    if (string.len(minor)>3) then dbg('SET_CHANNEL ERROR: Minor Channel Param Not Valid') return end
+    strCmd = 'DC2U' .. major .. ' '
+    emit(strCmd, strCommand .. ' - Major')
+    strCmd = 'DC2L' .. minor .. ' '
+    emit(strCmd, strCommand .. ' - Minor')
+  elseif (g_DirectChannelTuning=='Digital Cable - One Part') then
+    channel = string.rep('0', 5 - string.len(channel)) .. channel
+    if (string.len(channel)>5) then dbg('SET_CHANNEL ERROR: Channel Param Not Valid [>5]') return end
+    strCmd = 'DC1' .. channel
+    emit(strCmd, strCommand)
+  end 
+
+  --CHANNEL parameter is an INTEGER and cannot support delimeter & minor element
+  if (major~=nil) then C4:SendToProxy(5001,'CHANNEL_CHANGED',{CHANNEL=major})
+ else C4:SendToProxy(5001,'CHANNEL_CHANGED',{CHANNEL=channel}) end
+
+end
+
+function CMDS.SET_VOLUME_LEVEL(tParams,strCommand)
+  dbg(strCommand)
+  local volume=processVolumeLevel(tParams['LEVEL'], 0, 100, 0, 60)
+  volume= string.rep('0', 2 - string.len(volume)) .. volume
+  local strCmd = 'VOLM' .. volume .. '  '
+  emit(strCmd, strCommand, tParams.OUTPUT)
+  g_VolumeState = tonumber(volume)
+end
+
+function CMDS.START_VOL_DOWN(tParams,strCommand)
+  if (idEmitCommandsTimer~=nil) then
+    C4:KillTimer(idEmitCommandsTimer)
+    idEmitCommandsTimer = nil
+  end
+  g_VolumeRamp='DOWN'
+  if (g_VolRampTimerID==nil) then
+    g_VolRampTimerID=C4:AddTimer(intraVolRampDelayValue, 'MILLISECONDS', true)
+  end
+end
+
+function CMDS.START_VOL_UP(tParams,strCommand)
+  if (idEmitCommandsTimer~=nil) then
+    C4:KillTimer(idEmitCommandsTimer)
+    idEmitCommandsTimer = nil
+  end
+  g_VolumeRamp='UP'
+  if (g_VolRampTimerID==nil) then
+    g_VolRampTimerID=C4:AddTimer(intraVolRampDelayValue, 'MILLISECONDS', true)
+  end
+end
+
+function CMDS.STOP_VOL_UP(tParams,strCommand)
+  g_VolumeRamp=''
+  emit(CMDS.QUERY_VOLUME_STATE,'QUERY_VOLUME_STATE')
+  if (g_VolRampTimerID~=nil) then
+    C4:KillTimer(g_VolRampTimerID)
+    g_VolRampTimerID=nil
+  end
+  if (tEmitCommands[1]~=nil) then
+    if (idEmitCommandsTimer==nil) then
+      idEmitCommandsTimer = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+    end
+  end
+end
+
+function CMDS.STOP_VOL_DOWN(tParams,strCommand)
+  g_VolumeRamp=''
+  emit(CMDS.QUERY_VOLUME_STATE,'QUERY_VOLUME_STATE')
+  if (g_VolRampTimerID~=nil) then
+    C4:KillTimer(g_VolRampTimerID)
+    g_VolRampTimerID=nil
+  end
+  if (tEmitCommands[1]~=nil) then
+    if (idEmitCommandsTimer==nil) then
+      idEmitCommandsTimer = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+    end
+  end
+end
+
+function processVolumeLevel(volLevel, minVolLevel, maxVolLevel, minDeviceLevel, maxDeviceLevel)
+  local level = (volLevel-minVolLevel)/(maxVolLevel-minVolLevel)
+  local vl=(level*(maxDeviceLevel-minDeviceLevel))+minDeviceLevel
+  vl= tonumber(("%.".."0".."f"):format(vl))
+  dbg('processVolumeLevel: level in=' .. volLevel .. ', level out=' .. vl)
+  return vl
+end
+
+function CMDS.LUA_ACTION(tParams,strCommand)   
+  if tParams ~= nil then
+    for cmd,cmdv in pairs(tParams) do
+      dbg(cmd,cmdv)
+      if cmd == 'ACTION' then
+        if cmdv == 'Destroy Timers' then
+          OnDriverDestroyed()
+        elseif CMDS[cmdv] ~= nil then
+          emit(CMDS[cmdv], cmdv)
+        else
+          dbg('From ExecuteCommand Function - Undefined Action')
+          dbg('Key: ' .. cmd .. '  Value: ' .. cmdv)
+        end
+      else
+        dbg('From ExecuteCommand Function - Undefined Command')
+        dbg('Key: ' .. cmd .. '  Value: ' .. cmdv)
+      end
+    end
+  end
+end
+
+function send_polling()
+  if (bPowerOnSequence==true) then return end
+  if g_VolumeRamping then return end
+  if (g_ChannelBufferTimer ~= nil) then return end
+  emit('POWR?   ', 'QUERY POWER')
+  if (g_PowerState == 'OFF') then return end
+  emit('IAVD?   ', 'QUERY INPUT')
+  emit('VOLM0?  ', 'QUERY VOLUME')
+  emit('MUTE?   ', 'QUERY MUTE')
+end
+
+function CMDS.NUMBER_1(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_2(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_3(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_4(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_5(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_6(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_7(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_8(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_9(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.NUMBER_0(tParams,strCommand)
+  processDigits(string.sub(strCommand,8))
+end
+function CMDS.POUND(tParams,strCommand)
+  processDigits('-')
+end
+function CMDS.ENTER(tParams,strCommand)
+  if g_ChannelBuffer ~= nil then
+    local channel=g_ChannelBuffer
+    g_ChannelBuffer=nil
+    CMDS.SET_CHANNEL({['CHANNEL']=channel,},'SET_CHANNEL')
+    if g_ChannelBufferTimer ~= nil then
+      g_ChannelBufferTimer = C4:KillTimer(g_ChannelBufferTimer)
+      g_ChannelBufferTimer=nil
+    end
+  else
+    emit('RCKY40  ','ENTER')
+  end 
+end
+function CMDS.CANCEL(tParams,strCommand)
+  if g_ChannelBufferTimer ~= nil then
+    g_ChannelBufferTimer = C4:KillTimer(g_ChannelBufferTimer)
+    g_ChannelBufferTimer=nil
+  else
+    emit('RCKY46  ','CANCEL')
+  end
+  g_ChannelBuffer=nil
+end
+function processDigits(digit)
+  if g_ChannelBuffer==nil then
+    if (digit~='-') then
+      g_ChannelBuffer=digit
+    end
+  else
+    g_ChannelBuffer=g_ChannelBuffer .. digit
+  end
+  if (g_ChannelBufferTimer == nil) then
+    g_ChannelBufferTimer = C4:AddTimer(g_ChannelBufferTimerValue, 'SECONDS', false)
+  end
+end
+
+
+
+]]></script></config><driverdocumentation><category name="certified" description="Certification">Control4 certified on 2/16/2011 for software released versions: 1.8.2, 2.0.6.</category></driverdocumentation><controlmethod>ip</controlmethod></devicedata>
